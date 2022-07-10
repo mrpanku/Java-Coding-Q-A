@@ -1,0 +1,10 @@
+Try to declare meaningful variables of each type. Eg - a variable named age should be a numeric type (int or float) not byte/.
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int age = 20;
+        String name = "pankaj kumar";
+        System.out.println(age);
+        System.out.println(name);
+    }
+}
