@@ -1,0 +1,97 @@
+Make a Calculator. Take 2 numbers (a & b) from the user and an operation as follows : 
+
+
+
+
+	1 : + (Addition) a + b
+	
+	
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        int add = a + b;
+        System.out.println(add);
+        
+    }
+}
+	
+	2 : - (Subtraction) a - b
+	
+	
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        int sub = a - b;
+        System.out.println(sub);
+        
+    }
+}
+	
+	3 : * (Multiplication) a * b
+	
+	
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        int mul = a * b;
+        System.out.println(mul);
+        
+    }
+}
+	
+	
+	4 : / (Division) a / b
+	
+	
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        int div = a / b;
+        System.out.println(div);
+        
+    }
+}
+	
+	5 : % (Modulo or remainder) a % b
+	
+	
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st Number : ");
+        int a = sc.nextInt();
+        System.out.println("Enter 2nd Number : ");
+        int b = sc.nextInt();
+        
+        int mod = a % b;
+        System.out.println(mod);
+        
+    }
+}
+	
+	Calculate the result according to the operation given and display it to the user.
